@@ -1,8 +1,8 @@
 %define abiquo_basedir /opt/abiquo
 
 Name:     abiquo-server-tools
-Version: 1.7
-Release: 2.tag0.0.14%{?dist}%{?buildstamp}
+Version: 1.7.5
+Release:  1%{?dist}%{?buildstamp}
 Summary:  Abiquo Server Tools
 Group:    Development/System 
 License:  Multiple 
@@ -42,6 +42,10 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/abiquo-node-info-collector
 
 %changelog
+* Thu Mar 17 2011 Sergio Rubio <srubio@abiquo.com> - 1.7.5-1
+- version bump
+- updated scripts
+
 * Mon Nov 22 2010 Sergio Rubio <srubio@abiquo.com> 1.7-1
 - Updated to upstream 1.7
 
